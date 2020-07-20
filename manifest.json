@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "smallerAmazonPrimeOverlay",
+  "version": "0.1.0",
+  "description": "make the 'next title' overlay of amazon prime video smaller",
+
+  "content_scripts": [{
+    "css": ["index.css"],
+    "matches": ["https://www.amazon.co.jp/gp/video/*", "https://www.amazon.co.jp/*/dp/*"]
+  }]
+}
